@@ -57,11 +57,11 @@ const ProductDisplay = (props) => {
           </div>
         </div>
         <button>ADD TO CART</button>
-        <p className="productdispaly-right-category">
+        <p className="productdisplay-right-category">
           <span>Category:</span> Women, T-Shirt, Crop Top
         </p>
-        <p className="productdispaly-right-category">
-          <span>Tags:</span> Modern, Latest 
+        <p className="productdisplay-right-category">
+          <span>Tags:</span> Modern, Latest
         </p>
       </div>
     </div>
