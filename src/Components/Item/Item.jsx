@@ -6,7 +6,9 @@ const Item = (props) => {
   return (
     <div className="item">
       <Link to={`/product/${props.id}`}>
-      <img src={props.image} alt="/" /></Link>
+        {/* scrollTo is used to open the top of the page */}
+        <img onClick={window.scrollTo(0, 0)} src={props.image} alt="/" />
+      </Link>
       <p>{props.name}</p>
       <div className="items-price">
         <div className="items-price-new">${props.new_price}</div>
