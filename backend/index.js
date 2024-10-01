@@ -125,6 +125,7 @@ app.get("/allproducts", async (req, res) => {
   console.log("All Products Fetched");
   res.send(products);
 });
+
 app.listen(port, (error) => {
   if (!error) {
     console.log("Server Running on port " + port);
